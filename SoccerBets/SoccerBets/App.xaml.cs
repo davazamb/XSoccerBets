@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SoccerBets.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,7 +14,7 @@ namespace SoccerBets
         {
             InitializeComponent();
 
-            MainPage = new SoccerBets.MainPage();
+            MainPage = new LoginPage();
         }
 
         protected override void OnStart()
